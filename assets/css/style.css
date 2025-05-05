@@ -6,7 +6,7 @@
 }
 
 /* 
-navbar */
+navbar  start*/
 .navbar {
   --bs-bg-opacity: 1;
   background-color: rgba(4, 6, 43, 0.82) !important;
@@ -46,8 +46,9 @@ navbar */
   margin-right: 90px;
 }
 /* 
-navbar */
-/* Hero */
+navbar end */
+
+/* Hero start*/
 .Hero {
   background-color: rgba(4, 6, 43, 0.82) !important;
 }
@@ -56,13 +57,15 @@ navbar */
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
 }
 
-/* Hero */
-/* logo */
+/* Hero end */
+
+/* logo  start*/
 .logo {
   background-color: rgb(252, 235, 222);
 }
-/* logo */
-/* About */
+/* logo end */
+
+/* About start*/
 .About {
   background-color: rgb(252, 235, 222);
 }
@@ -70,24 +73,24 @@ navbar */
   transform: scale(1.02); 
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
 }
-/* About */
+/* About end */
 
-/* History */
+/* History start*/
 
 .History {
   background-color: rgb(252, 235, 222);
 }
 
-/* History */
+/* History end */
 
-/* Services */
+/* Services start*/
 .Services {
   background-color: rgb(252, 235, 222);
 }
 
-/* Services */
+/* Services end */
 
-/* Video */
+/* Video start*/
 .Video {
   background-color: rgb(252, 235, 222);
 }
@@ -114,8 +117,8 @@ navbar */
   transform: scale(1.1);
 }
 
-/* Video */
-/* Portfolio */
+/* Video end */
+/* Portfolio start*/
 .Portfolio {
   background-color: rgba(4, 6, 43, 0.82) !important;
 }
@@ -124,8 +127,8 @@ navbar */
   transform: scale(1.02); 
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
 }
-/* Portfolio */
-/* Contact  */
+/* Portfolio end */
+/* Contact  start*/
 .Growth {
   background-color: rgba(4, 6, 43, 0.82) !important;
 }
@@ -169,13 +172,15 @@ navbar */
   height: 530px;
   margin-bottom: 30px;
 }
+/* Contact  end*/
 
-/* FAQ section */
+/* FAQ section start */
 .FAQ {
   background-color: rgb(252, 235, 222);
 }
+/* FAQ section end*/
 
-/* Pricing */
+/* Pricing start */
 .Pricing {
   background-color: rgb(252, 235, 222);
 }
@@ -197,9 +202,9 @@ navbar */
   color: #fff !important;
 }
 
-/* Pricing */
+/* Pricing end*/
 
-/* Testimonials section */
+/* Testimonials section start*/
 .Testimonials {
   background-color: rgba(4, 6, 43, 0.82) !important;
   color: #fff;
@@ -248,17 +253,14 @@ navbar */
   cursor: pointer;
 }
 
-/* Testimonials section */
-/* FAQ section */
-/* 
+/* Testimonials section end*/
 
-
-/* Contact Section */
+/* Contact Section start*/
 .contact-section {
   background-color: rgb(252, 235, 222);
 }
-/* Contact Section */
-/* footer */
+/* Contact Section end*/
+/* footer start*/
 
 .footer {
   background-color: rgb(252, 235, 222);
@@ -274,4 +276,4 @@ h6 {
 }
 
 /* 
-footer */
+footer end*/
