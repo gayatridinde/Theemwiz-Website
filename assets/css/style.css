@@ -1,41 +1,21 @@
 * {
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  margin: 0px;
-  font-family: "Times New Roman", Times, serif;
 }
 
 /* 
 navbar  start*/
 .navbar {
-  --bs-bg-opacity: 1;
   background-color: rgba(4, 6, 43, 0.82) !important;
-  color: white;
 }
-
-.navbar a,
-.navbar .navbar-brand,
-.navbar .nav-link,
-.navbar .btn {
-  color: white;
-}
-
-.navbar .nav-link:hover,
-.navbar .navbar-brand:hover {
-  color: #ddd; 
-}
-.btn-outline-secondary {
-  color: white;
-  border-color: white;
-}
-
 .btn-outline-secondary:hover {
   background-color: white;
   color: black;
 }
 
 .navbar-toggler {
-  border-color: white; 
+  border-color: white;
 }
 
 .navbar-toggler-icon {
@@ -43,7 +23,7 @@ navbar  start*/
 }
 
 .nav-item {
-  margin-right: 90px;
+  margin-right: 100px;
 }
 /* 
 navbar end */
@@ -52,11 +32,6 @@ navbar end */
 .Hero {
   background-color: rgba(4, 6, 43, 0.82) !important;
 }
-.hero-img:hover {
-  transform: scale(1.02); 
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
-}
-
 /* Hero end */
 
 /* logo  start*/
@@ -69,10 +44,7 @@ navbar end */
 .About {
   background-color: rgb(252, 235, 222);
 }
-.about-img:hover {
-  transform: scale(1.02); 
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
-}
+
 /* About end */
 
 /* History start*/
@@ -95,10 +67,9 @@ navbar end */
   background-color: rgb(252, 235, 222);
 }
 .video-icon {
-  width: 60px;
-  height: 60px;
-
-  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  border-radius: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,10 +84,6 @@ navbar end */
   color: white;
 }
 
-.video-icon:hover {
-  transform: scale(1.1);
-}
-
 /* Video end */
 /* Portfolio start*/
 .Portfolio {
@@ -124,9 +91,10 @@ navbar end */
 }
 
 .pimg:hover {
-  transform: scale(1.02); 
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+
 /* Portfolio end */
 /* Contact  start*/
 .Growth {
@@ -137,19 +105,19 @@ navbar end */
 }
 .Growth {
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .Growth-container {
-  border: 3px solid #f77858;
   position: relative;
   padding: 3rem;
+  border-radius: 10px;
 }
 
 @media (max-width: 576px) {
   .growthimg-last {
-    width: 50px;
-    max-height: 150px;
+    width: 10px;
+    max-height: 170px;
   }
 }
 
@@ -157,7 +125,6 @@ navbar end */
   position: absolute;
   top: -50px;
   left: 30px;
-
   width: 150px;
   height: 150px;
   z-index: 3;
@@ -166,10 +133,10 @@ navbar end */
 .growthimg-last {
   position: absolute;
   right: 0;
-  bottom: -30px; 
+  bottom: -30px;
   z-index: 2;
-  width: 300px;
-  height: 530px;
+  width: 290px;
+  height: 550px;
   margin-bottom: 30px;
 }
 /* Contact  end*/
@@ -177,6 +144,20 @@ navbar end */
 /* FAQ section start */
 .FAQ {
   background-color: rgb(252, 235, 222);
+}
+
+.accordion-button {
+  background-color: rgb(252, 235, 222);
+}
+.accordion-body img {
+  max-width: 100%;
+  height: auto;
+}
+
+.accordion-img {
+  max-height: 25px;
+  width: auto;
+  max-width: 70%;
 }
 /* FAQ section end*/
 
@@ -190,11 +171,14 @@ navbar end */
 
 .card {
   background-color: rgb(252, 235, 222);
-  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  width: 350px;
+  height: auto;
 }
 
 .card:hover {
   background-color: #fff;
+  transform: translateY(-20px); /* moves the card up on hover */
 }
 
 .btn:hover {
@@ -207,23 +191,25 @@ navbar end */
 /* Testimonials section start*/
 .Testimonials {
   background-color: rgba(4, 6, 43, 0.82) !important;
-  color: #fff;
 }
 
 .testimonial-box img {
-  width: 180px;
-  height: 180px;
+  width: 250px;
+  height: 350px;
   object-fit: cover;
   margin-bottom: 15px;
   background-color: rgba(4, 6, 43, 0.82) !important;
+  border: 1px solid #3a3c56 !important;
+  border-radius: 5px;
 }
 .testimonial-box h5 {
   font-weight: 600;
   margin-bottom: 5px;
   color: #fff;
+  font-family: Epilogue;
 }
 .testimonial-box p {
-  color: #fff;
+  color: #9b9a9a;
   font-size: 14px;
 }
 
@@ -235,7 +221,7 @@ navbar end */
 }
 .swiper-button-next,
 .swiper-button-prev {
-  color: #fff; 
+  color: #fff;
   font-size: 5px;
 }
 
@@ -259,20 +245,41 @@ navbar end */
 .contact-section {
   background-color: rgb(252, 235, 222);
 }
+
 /* Contact Section end*/
+
 /* footer start*/
 
 .footer {
   background-color: rgb(252, 235, 222);
 }
-li a {
-  color: rgb(63, 62, 62);
+.social-icon {
+  color: white;
+  background-color: #f77858;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  margin-left: 13px;
+  margin-top: -15px;
 }
-h6 {
-  color: rgb(247, 120, 88);
+
+.social-icon:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
 }
-.hr {
-  color: coral;
+.footer-link-img {
+  max-height: 24px;
+  width: auto;
+  object-fit: contain;
+  margin: 10px;
 }
 
 /* 
